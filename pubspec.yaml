@@ -43,6 +43,9 @@ dependencies:
   fpdart: ^1.2.0
   flutter_localizations:
     sdk: flutter
+  google_fonts: ^8.1.0
+  flutter_svg: ^2.3.0
+  lucide_icons: ^0.257.0
 
 dev_dependencies:
   flutter_test:
