@@ -6,6 +6,8 @@ import '../../features/auth/presentation/splash_screen.dart';
 import '../../features/auth/presentation/onboarding_screen.dart';
 import '../../features/auth/presentation/role_selection_screen.dart';
 import '../../features/auth/presentation/login_screen.dart';
+import '../../features/auth/presentation/signup_screen.dart';
+import '../../features/auth/domain/entities/user_profile.dart';
 import '../../features/student/presentation/dashboard_screen.dart';
 import '../../features/student/presentation/profile_screen.dart';
 import '../../features/student/presentation/settings_screen.dart';
@@ -29,6 +31,13 @@ final goRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: '/login',
         builder: (context, state) => const LoginScreen(),
+      ),
+      GoRoute(
+        path: '/signup',
+        builder: (context, state) {
+          final role = state.extra as UserRole? ?? UserRole.student;
+          return SignupScreen(role: role);
+        },
       ),
       GoRoute(
         path: '/dashboard',
