@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "166345068623",
+    "project_id": "beams-hifz",
+    "storage_bucket": "beams-hifz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166345068623:android:24d33f663bcd2b0a435a3a",
+        "android_client_info": {
+          "package_name": "com.beamshifz.beams_hifz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166345068623-tm62so08ruq3hqh89jsl4p5ev0of7apu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beamshifz.beams_hifz",
+            "certificate_hash": "aead5ca005c8b6da92f4b67d258f0c1039c125ec"
+          }
+        },
+        {
+          "client_id": "166345068623-jb3sca9qronbtv9d5rdaejtdmm7j40lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5QLqGGFUcjkwQwW_VEY2UuI3lCwa0B0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166345068623-jb3sca9qronbtv9d5rdaejtdmm7j40lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
